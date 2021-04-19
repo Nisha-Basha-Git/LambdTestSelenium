@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="DynamicBrowserChrome" Value="Chrome"/>
+    <Parameter name="DynamicBrowserSafari" Value="Safari"/>
+    <Parameter name="LamdaTestURL" value="https://www.lambdatest.com/automation-demos/" />
+    <Parameter name="LamdaURL" value="https://www.lambdatest.com/selenium-automation" />
+    <Parameter name="UserName" Value="lambda"/>
+    <Parameter name="Password" Value="lambda123"/>
+    <Parameter name="email" Value="ambika1991ece@gmail.com"/>
+  </TestRunParameters>
+  <VSTest>
+    <Parallelize>
+      <Workers>2</Workers>
+      <Scope>MethodLevel</Scope>
+    </Parallelize>
+  </VSTest>
+</RunSettings>
